@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fb723721-cbbc-41e8-b861-3d71d800fb2b": {
+      "ProjectGuid": "fb723721-cbbc-41e8-b861-3d71d800fb2b",
+      "DisplayName": "PalletApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d44bf929-9658-4bb3-9dd2-8e8c0b7defae": {
+      "ProjectGuid": "d44bf929-9658-4bb3-9dd2-8e8c0b7defae",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
