@@ -2320,11 +2320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C# projects\\PalletAppENG\\PalletApp\\PalletApp.csproj",
+      "projectUniqueName": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\PalletApp.csproj",
       "projectName": "PalletApp",
-      "projectPath": "F:\\C# projects\\PalletAppENG\\PalletApp\\PalletApp.csproj",
+      "projectPath": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\PalletApp.csproj",
       "packagesPath": "C:\\Users\\Bartosz\\.nuget\\packages\\",
-      "outputPath": "F:\\C# projects\\PalletAppENG\\PalletApp\\obj\\",
+      "outputPath": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\VSC SDK\\NuGetPackages"

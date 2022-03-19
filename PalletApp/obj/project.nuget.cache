@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ncd92KyuXLx7HfuNZgApwe7prP3f9rxyfa5KgRyX3jYcg/37e1Gf46I9vX2CyQbqYX4RDg+4GNW8AbsTeQu7eA==",
+  "dgSpecHash": "XsebGo1ogzI5wqJyEx0oP7bPYn4cmcAOCRev0+VpPefvCOeKjRyfpVtBGL0pRBPvp0H9Zk/yYIu9LykkbSN9hA==",
   "success": true,
-  "projectFilePath": "F:\\C# projects\\PalletAppENG\\PalletApp\\PalletApp.csproj",
+  "projectFilePath": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\PalletApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartosz\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Bartosz\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
