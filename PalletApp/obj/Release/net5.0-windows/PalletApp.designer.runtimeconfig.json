@@ -7,8 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\Bartosz\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Bartosz\\.nuget\\packages",
-      "F:\\VSC SDK\\NuGetPackages"
+      "C:\\Users\\Bartosz\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

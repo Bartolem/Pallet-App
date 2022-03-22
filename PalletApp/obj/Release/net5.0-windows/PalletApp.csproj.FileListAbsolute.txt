@@ -65,6 +65,8 @@ F:\C# projects\PalletAppENG\PalletApp\bin\Release\net5.0-windows\runtimes\win-ar
 F:\C# projects\PalletAppENG\PalletApp\bin\Release\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 F:\C# projects\PalletAppENG\PalletApp\bin\Release\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 F:\C# projects\PalletAppENG\PalletApp\bin\Release\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.PalletApp.resources
+F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.Form2.resources
 F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.Properties.Resources.resources
 F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.csproj.GenerateResource.cache
 F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -76,6 +78,3 @@ F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.dll
 F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\ref\PalletApp.dll
 F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.pdb
 F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.genruntimeconfig.cache
-F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.csproj.AssemblyReference.cache
-F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.PalletApp.resources
-F:\C# projects\PalletAppENG\PalletApp\obj\Release\net5.0-windows\PalletApp.Form2.resources

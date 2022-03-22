@@ -50,7 +50,6 @@ namespace PalletApp
             this.textResult3 = new System.Windows.Forms.TextBox();
             this.textResult2 = new System.Windows.Forms.TextBox();
             this.textResult1 = new System.Windows.Forms.TextBox();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -82,6 +81,10 @@ namespace PalletApp
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -90,6 +93,7 @@ namespace PalletApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label11
@@ -106,7 +110,7 @@ namespace PalletApp
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.ForeColor = System.Drawing.Color.Orange;
+            this.label19.ForeColor = System.Drawing.Color.Yellow;
             this.label19.Location = new System.Drawing.Point(11, 20);
             this.label19.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label19.Name = "label19";
@@ -118,7 +122,7 @@ namespace PalletApp
             // 
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.ForeColor = System.Drawing.Color.Orange;
+            this.label20.ForeColor = System.Drawing.Color.Yellow;
             this.label20.Location = new System.Drawing.Point(11, 68);
             this.label20.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label20.Name = "label20";
@@ -130,7 +134,7 @@ namespace PalletApp
             // 
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.ForeColor = System.Drawing.Color.Orange;
+            this.label21.ForeColor = System.Drawing.Color.Yellow;
             this.label21.Location = new System.Drawing.Point(11, 118);
             this.label21.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label21.Name = "label21";
@@ -143,7 +147,7 @@ namespace PalletApp
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label22.ForeColor = System.Drawing.Color.Orange;
+            this.label22.ForeColor = System.Drawing.Color.Yellow;
             this.label22.Location = new System.Drawing.Point(11, 170);
             this.label22.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label22.Name = "label22";
@@ -156,7 +160,7 @@ namespace PalletApp
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label23.ForeColor = System.Drawing.Color.Orange;
+            this.label23.ForeColor = System.Drawing.Color.Yellow;
             this.label23.Location = new System.Drawing.Point(11, 218);
             this.label23.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label23.Name = "label23";
@@ -169,7 +173,7 @@ namespace PalletApp
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label24.ForeColor = System.Drawing.Color.Orange;
+            this.label24.ForeColor = System.Drawing.Color.Yellow;
             this.label24.Location = new System.Drawing.Point(11, 266);
             this.label24.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label24.Name = "label24";
@@ -182,7 +186,7 @@ namespace PalletApp
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.ForeColor = System.Drawing.Color.Orange;
+            this.label25.ForeColor = System.Drawing.Color.Yellow;
             this.label25.Location = new System.Drawing.Point(11, 314);
             this.label25.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label25.Name = "label25";
@@ -195,7 +199,7 @@ namespace PalletApp
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label26.ForeColor = System.Drawing.Color.Orange;
+            this.label26.ForeColor = System.Drawing.Color.Yellow;
             this.label26.Location = new System.Drawing.Point(11, 362);
             this.label26.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label26.Name = "label26";
@@ -208,7 +212,7 @@ namespace PalletApp
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.Orange;
+            this.label13.ForeColor = System.Drawing.Color.Yellow;
             this.label13.Location = new System.Drawing.Point(11, 410);
             this.label13.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label13.Name = "label13";
@@ -343,11 +347,6 @@ namespace PalletApp
             this.textResult1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textResult1.TextChanged += new System.EventHandler(this.textResult1_TextChanged);
             // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DarkGray;
@@ -385,6 +384,7 @@ namespace PalletApp
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 53;
             this.pictureBox2.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2, "Clear");
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel2
@@ -411,7 +411,7 @@ namespace PalletApp
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.Orange;
+            this.label15.ForeColor = System.Drawing.Color.Yellow;
             this.label15.Location = new System.Drawing.Point(349, 166);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(28, 22);
@@ -423,7 +423,7 @@ namespace PalletApp
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.Orange;
+            this.label16.ForeColor = System.Drawing.Color.Yellow;
             this.label16.Location = new System.Drawing.Point(349, 123);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(38, 22);
@@ -440,6 +440,7 @@ namespace PalletApp
             this.textBox5.Size = new System.Drawing.Size(99, 23);
             this.textBox5.TabIndex = 35;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.toolTip1.SetToolTip(this.textBox5, "Number of packages of which the cargo is to consist");
             this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
             // 
             // textBox8
@@ -458,7 +459,7 @@ namespace PalletApp
             // 
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.Orange;
+            this.label12.ForeColor = System.Drawing.Color.Yellow;
             this.label12.Location = new System.Drawing.Point(9, 17);
             this.label12.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label12.Name = "label12";
@@ -476,6 +477,7 @@ namespace PalletApp
             this.textBox7.Size = new System.Drawing.Size(99, 23);
             this.textBox7.TabIndex = 37;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.toolTip1.SetToolTip(this.textBox7, "Most commonly used trailer height is 1800mm");
             this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox7_KeyPress);
             // 
             // radioButtonTrue
@@ -483,7 +485,7 @@ namespace PalletApp
             this.radioButtonTrue.AutoSize = true;
             this.radioButtonTrue.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonTrue.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioButtonTrue.ForeColor = System.Drawing.Color.Orange;
+            this.radioButtonTrue.ForeColor = System.Drawing.Color.Yellow;
             this.radioButtonTrue.Location = new System.Drawing.Point(244, 69);
             this.radioButtonTrue.Name = "radioButtonTrue";
             this.radioButtonTrue.Size = new System.Drawing.Size(54, 26);
@@ -497,7 +499,7 @@ namespace PalletApp
             this.radioButtonFalse.AutoSize = true;
             this.radioButtonFalse.BackColor = System.Drawing.Color.Transparent;
             this.radioButtonFalse.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.radioButtonFalse.ForeColor = System.Drawing.Color.Orange;
+            this.radioButtonFalse.ForeColor = System.Drawing.Color.Yellow;
             this.radioButtonFalse.Location = new System.Drawing.Point(304, 69);
             this.radioButtonFalse.Name = "radioButtonFalse";
             this.radioButtonFalse.Size = new System.Drawing.Size(49, 26);
@@ -510,11 +512,11 @@ namespace PalletApp
             // 
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.Orange;
+            this.label8.ForeColor = System.Drawing.Color.Yellow;
             this.label8.Location = new System.Drawing.Point(9, 71);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 26);
+            this.label8.Size = new System.Drawing.Size(144, 26);
             this.label8.TabIndex = 12;
             this.label8.Text = "Stacking ability:";
             // 
@@ -522,7 +524,7 @@ namespace PalletApp
             // 
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Orange;
+            this.label9.ForeColor = System.Drawing.Color.Yellow;
             this.label9.Location = new System.Drawing.Point(9, 119);
             this.label9.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label9.Name = "label9";
@@ -534,7 +536,7 @@ namespace PalletApp
             // 
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Orange;
+            this.label10.ForeColor = System.Drawing.Color.Yellow;
             this.label10.Location = new System.Drawing.Point(9, 166);
             this.label10.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label10.Name = "label10";
@@ -568,7 +570,7 @@ namespace PalletApp
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.Orange;
+            this.label7.ForeColor = System.Drawing.Color.Yellow;
             this.label7.Location = new System.Drawing.Point(190, 111);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(38, 22);
@@ -580,7 +582,7 @@ namespace PalletApp
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Orange;
+            this.label6.ForeColor = System.Drawing.Color.Yellow;
             this.label6.Location = new System.Drawing.Point(190, 63);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 22);
@@ -592,7 +594,7 @@ namespace PalletApp
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.Orange;
+            this.label14.ForeColor = System.Drawing.Color.Yellow;
             this.label14.Location = new System.Drawing.Point(190, 159);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(28, 22);
@@ -604,7 +606,7 @@ namespace PalletApp
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Orange;
+            this.label1.ForeColor = System.Drawing.Color.Yellow;
             this.label1.Location = new System.Drawing.Point(190, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 22);
@@ -616,7 +618,7 @@ namespace PalletApp
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Orange;
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
             this.label2.Location = new System.Drawing.Point(9, 15);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label2.Name = "label2";
@@ -641,7 +643,7 @@ namespace PalletApp
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Orange;
+            this.label3.ForeColor = System.Drawing.Color.Yellow;
             this.label3.Location = new System.Drawing.Point(9, 63);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label3.Name = "label3";
@@ -654,7 +656,7 @@ namespace PalletApp
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Orange;
+            this.label4.ForeColor = System.Drawing.Color.Yellow;
             this.label4.Location = new System.Drawing.Point(9, 111);
             this.label4.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label4.Name = "label4";
@@ -667,7 +669,7 @@ namespace PalletApp
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Orange;
+            this.label5.ForeColor = System.Drawing.Color.Yellow;
             this.label5.Location = new System.Drawing.Point(9, 159);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 15, 6, 15);
             this.label5.Name = "label5";
@@ -727,12 +729,13 @@ namespace PalletApp
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(319, 501);
+            this.pictureBox1.Location = new System.Drawing.Point(333, 501);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(56, 57);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 52;
             this.pictureBox1.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1, "Clear");
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox3
@@ -740,12 +743,13 @@ namespace PalletApp
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(202, 493);
+            this.pictureBox3.Location = new System.Drawing.Point(235, 493);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(75, 73);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 53;
             this.pictureBox3.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox3, "Calculate");
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
@@ -753,13 +757,48 @@ namespace PalletApp
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(159, 501);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(51, 35);
+            this.pictureBox4.Size = new System.Drawing.Size(56, 57);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 54;
             this.pictureBox4.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox4, "Info");
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.Yellow;
+            this.label17.Location = new System.Drawing.Point(47, 8);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(306, 29);
+            this.label17.TabIndex = 55;
+            this.label17.Text = "Collective package details";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label18.ForeColor = System.Drawing.Color.Yellow;
+            this.label18.Location = new System.Drawing.Point(548, 8);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(221, 29);
+            this.label18.TabIndex = 56;
+            this.label18.Text = "Calculation results";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Tan;
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Location = new System.Drawing.Point(12, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(900, 41);
+            this.panel1.TabIndex = 57;
             // 
             // PalletApp
             // 
@@ -768,7 +807,6 @@ namespace PalletApp
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(924, 558);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
@@ -776,6 +814,8 @@ namespace PalletApp
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -793,6 +833,8 @@ namespace PalletApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -818,7 +860,6 @@ namespace PalletApp
         private System.Windows.Forms.TextBox textResult3;
         private System.Windows.Forms.TextBox textResult2;
         private System.Windows.Forms.TextBox textResult1;
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
@@ -850,6 +891,10 @@ namespace PalletApp
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

@@ -112,88 +112,9 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="png-transparent-pallet-warehouse-computer-icons-box-cooking-utensils-miscellaneous-angle-logo-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-transparent-pallet-warehouse-computer-icons-box-cooking-utensils-miscellaneous-angle-logo-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="png-transparent-pallet-warehouse-computer-icons-box-cooking-utensils-miscellaneous-angle-logo-thumbnail1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-transparent-pallet-warehouse-computer-icons-box-cooking-utensils-miscellaneous-angle-logo-thumbnail1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-icon-293fd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-icon-293fd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1588876-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1588876-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-icon-29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-icon-29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-icon-293fd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-icon-293fd1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1675914-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1675914-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="6477-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6477-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1942599" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1942599.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4898191" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4898191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cardboard-boxes-on-pallets-illustration-png-clip-art" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cardboard-boxes-on-pallets-illustration-png-clip-art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="960748-200 - Kopia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\960748-200 - Kopia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="470641-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\470641-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="speed-icon-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\speed-icon-15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2683916-200 - Kopia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2683916-200 - Kopia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2897697" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2897697.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a08647cec486718eaf66a38d6f6f8784" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a08647cec486718eaf66a38d6f6f8784.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-cardboard-box-freight-transport-corrugated-fiberboard-png-favpng-aXKXhV0V85Pc8yadEXBjVJPpc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-cardboard-box-freight-transport-corrugated-fiberboard-png-favpng-aXKXhV0V85Pc8yadEXBjVJPpc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-icon-2931" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-icon-2931.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="470641-2001" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\470641-2001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="png-transparent-computer-icons-pallet-warehouse-boxes-miscellaneous-building-rectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\png-transparent-computer-icons-pallet-warehouse-boxes-miscellaneous-building-rectangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="960748-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\960748-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="forklift" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\forklift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-icon-293" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-icon-293.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-jack-cardboard-box-packaging-and-labeling-png-favpng-cxRaenYQNmkpKd3W69SH4S2qd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-jack-cardboard-box-packaging-and-labeling-png-favpng-cxRaenYQNmkpKd3W69SH4S2qd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallet-icon-293fd2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallet-icon-293fd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

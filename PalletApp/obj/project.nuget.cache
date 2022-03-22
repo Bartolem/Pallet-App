@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XsebGo1ogzI5wqJyEx0oP7bPYn4cmcAOCRev0+VpPefvCOeKjRyfpVtBGL0pRBPvp0H9Zk/yYIu9LykkbSN9hA==",
+  "dgSpecHash": "En++W7OvJSnc0qb3VrDlxYgqktVAXQMG6mVLqbEvqmqyaMeP5tn1eo7oUSB6Lm/ONNxo2B5id1ROlnS1+0u+tA==",
   "success": true,
-  "projectFilePath": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\PalletApp.csproj",
+  "projectFilePath": "F:\\C# projects\\Pallet App\\Pallet-App-source-code\\PalletApp\\PalletApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartosz\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Bartosz\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
@@ -47,7 +47,8 @@
     "C:\\Users\\Bartosz\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
     "C:\\Users\\Bartosz\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Bartosz\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "C:\\Users\\Bartosz\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Bartosz\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bartosz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }

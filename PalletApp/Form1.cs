@@ -12,6 +12,7 @@ namespace PalletApp
         public PalletApp()
         {
             InitializeComponent();
+            panel1.BackColor = Color.FromArgb(100, 0, 0, 0);
             panel2.BackColor = Color.FromArgb(100, 0, 0, 0);
             panel3.BackColor = Color.FromArgb(100, 0, 0, 0);
             panel4.BackColor = Color.FromArgb(100, 0, 0, 0);
@@ -19,8 +20,7 @@ namespace PalletApp
         //Calculate
 
         private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
+        {           
             //                   Collective packages
             string length = textBox1.Text;
             string wide = textBox2.Text;
@@ -287,7 +287,7 @@ namespace PalletApp
         //Quantity
         private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsNumber(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != ',')
+            if (!char.IsNumber(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }

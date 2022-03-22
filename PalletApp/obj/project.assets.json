@@ -2314,24 +2314,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bartosz\\.nuget\\packages\\": {},
-    "F:\\VSC SDK\\NuGetPackages": {}
+    "C:\\Users\\Bartosz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\PalletApp.csproj",
+      "projectUniqueName": "F:\\C# projects\\Pallet App\\Pallet-App-source-code\\PalletApp\\PalletApp.csproj",
       "projectName": "PalletApp",
-      "projectPath": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\PalletApp.csproj",
+      "projectPath": "F:\\C# projects\\Pallet App\\Pallet-App-source-code\\PalletApp\\PalletApp.csproj",
       "packagesPath": "C:\\Users\\Bartosz\\.nuget\\packages\\",
-      "outputPath": "F:\\C# projects\\Pallet-App-updates\\PalletApp\\obj\\",
+      "outputPath": "F:\\C# projects\\Pallet App\\Pallet-App-source-code\\PalletApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "F:\\VSC SDK\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Bartosz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2373,6 +2368,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
