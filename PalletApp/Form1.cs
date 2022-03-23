@@ -354,10 +354,5 @@ namespace PalletApp
             Form2 info = new Form2();
             info.ShowDialog();
         }
-
-        private void textResult1_TextChanged(object sender, EventArgs e)
-        {
-            textResult1.Enabled = false;
-        }
     }
 }

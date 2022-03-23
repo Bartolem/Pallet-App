@@ -345,7 +345,6 @@ namespace PalletApp
             this.textResult1.TabIndex = 32;
             this.textResult1.Text = "Result";
             this.textResult1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textResult1.TextChanged += new System.EventHandler(this.textResult1_TextChanged);
             // 
             // panel4
             // 
@@ -763,7 +762,7 @@ namespace PalletApp
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 54;
             this.pictureBox4.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox4, "Info");
+            this.toolTip1.SetToolTip(this.pictureBox4, "Pallet info");
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label17
@@ -786,9 +785,9 @@ namespace PalletApp
             this.label18.ForeColor = System.Drawing.Color.Yellow;
             this.label18.Location = new System.Drawing.Point(548, 8);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(221, 29);
+            this.label18.Size = new System.Drawing.Size(211, 29);
             this.label18.TabIndex = 56;
-            this.label18.Text = "Calculation results";
+            this.label18.Text = "Calculation result";
             // 
             // panel1
             // 
