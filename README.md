@@ -18,8 +18,14 @@
 ##### 1.Enter all the data about the box.
 ![](images/demo1.png)
 
-##### 2. Check the stacking option. This is an important option that has a key impact on how the load is formed on the pallet.
+##### 2. Check the stacking option. 
+> This is an important option that has a key impact on how the load is formed on the pallet.
+![](images/demo2.png)
 
-##### 3. Once all data are enter you can run the app by press the calculation button. Make sure the stacking option is checked, otherwise the application will not start.
+##### 3. Press calculation button.
+> Once all data are enter you can run the app by press the calculation button. Make sure the stacking option is checked, otherwise the application will not start.
+![](images/demo3.png)
 
-##### 4. Read the result. We will get number of total boxes we can put on pallet, layers, rows, volume and weight based on informations inputed. Also result is limited to maximum weight and height of a pallet.
+##### 4. Read the result.
+> We will get number of total boxes we can put on pallet, layers, rows, volume and weight based on informations inputed. Also result is limited to maximum weight and height of a pallet.
+![](images/demo4.png)
