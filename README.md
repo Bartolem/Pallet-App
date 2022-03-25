@@ -16,6 +16,7 @@
 
 ## How to use this application
 ##### 1.Enter all the data about the box.
+![](images/demo1.png)
 
 ##### 2. Check the stacking option. This is an important option that has a key impact on how the load is formed on the pallet.
 
