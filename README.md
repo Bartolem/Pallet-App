@@ -8,9 +8,8 @@
 
 ## Setup process
 ##### 1.Download file from:
-```
 https://github.com/Bartolem/Pallet-App-repo
-```
+
 ##### 2.Click the setup icon.
 
 ##### 3.Open Pallet App.
