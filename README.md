@@ -1,5 +1,5 @@
 ## About Pallet App
-### This application was developed to calculate different options of stacking boxes on pallet.
+##### This application was developed to calculate different options of stacking boxes on pallet.
 
 ## Used technologies
 * C#
